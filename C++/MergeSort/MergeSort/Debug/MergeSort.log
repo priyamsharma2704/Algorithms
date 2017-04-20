@@ -1,0 +1,19 @@
+﻿Build started 4/15/2017 7:36:48 AM.
+     1>Project "C:\Users\PRIYAM\Documents\Visual Studio 2012\Projects\Algorithms\MergeSort\MergeSort\MergeSort.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MergeSort.cpp
+         MergeSort.cpp
+     1>c:\users\priyam\documents\visual studio 2012\projects\algorithms\mergesort\mergesort\mergesort.cpp(85): error C2057: expected constant expression
+     1>c:\users\priyam\documents\visual studio 2012\projects\algorithms\mergesort\mergesort\mergesort.cpp(85): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\priyam\documents\visual studio 2012\projects\algorithms\mergesort\mergesort\mergesort.cpp(85): error C2133: 'a' : unknown size
+     1>c:\users\priyam\documents\visual studio 2012\projects\algorithms\mergesort\mergesort\mergesort.cpp(122): error C2057: expected constant expression
+     1>c:\users\priyam\documents\visual studio 2012\projects\algorithms\mergesort\mergesort\mergesort.cpp(122): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\priyam\documents\visual studio 2012\projects\algorithms\mergesort\mergesort\mergesort.cpp(122): error C2133: 'L' : unknown size
+     1>c:\users\priyam\documents\visual studio 2012\projects\algorithms\mergesort\mergesort\mergesort.cpp(123): error C2057: expected constant expression
+     1>c:\users\priyam\documents\visual studio 2012\projects\algorithms\mergesort\mergesort\mergesort.cpp(123): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\priyam\documents\visual studio 2012\projects\algorithms\mergesort\mergesort\mergesort.cpp(123): error C2133: 'R' : unknown size
+     1>Done Building Project "C:\Users\PRIYAM\Documents\Visual Studio 2012\Projects\Algorithms\MergeSort\MergeSort\MergeSort.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.59
