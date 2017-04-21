@@ -3,17 +3,17 @@ using namespace std;
 
 void mergeSort(int list[],int size)
 {
-	int temp =0;
+	int temp = 0;
 
 	for(int  i=0;i<size-1;i++)
 	{
-		for(int j = i+1; j<size;j++)
+		for(int j = 0; j<size-1;j++)
 		{
-			if(list[i] > list[j])
+			if(list[j] > list[j+1])
 			{
-				temp = list[i];
-				list[i] = list[j];
-				list[j] = temp;
+				temp = list[j];
+				list[j] = list[j+1];
+				list[j+1] = temp;
 			}
 		}
 	}
